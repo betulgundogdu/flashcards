@@ -1,50 +1,54 @@
-# Welcome to your Expo app 👋
+# 🧠 Flashcards
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A clean and simple flashcard mobile app built with **Expo + React Native + Redux Toolkit + expo-router**.
 
-## Get started
+## 📱 Features
 
-1. Install dependencies
+* Create and manage flashcard lists
+* Add/edit/delete flashcards in each list
+* Swipe-based flashcard review interface
+* Progress tracking with visual feedback
+* Offline-first architecture (uses Redux)
+* Clean and modern UI (React Native Paper)
 
-   ```bash
-   npm install
-   ```
+## ✨ Tech Stack
 
-2. Start the app
+* [Expo](https://expo.dev/)
+* [React Native](https://reactnative.dev/)
+* [Redux Toolkit](https://redux-toolkit.js.org/)
+* [expo-router](https://expo.github.io/router/)
+* [React Native Paper](https://callstack.github.io/react-native-paper/)
 
-   ```bash
-    npx expo start
-   ```
+## 📆 Project Structure
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+.
+├── app/                  # Route-based screens (expo-router)
+├── components/           # Shared UI components
+├── stores/               # Redux slices & setup
+├── services/             # Async logic (e.g. API)
+├── assets/               # Fonts, images, etc.
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🚀 Getting Started
 
-## Learn more
+### Prerequisites
 
-To learn more about developing your project with Expo, look at the following resources:
+* Node.js (18+)
+* npm (9+) or yarn
+* Expo CLI
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Setup
 
-## Join the community
+```bash
+git clone https://github.com/betulgundogdu/flashcards
+cd flashcards
+npm install
+npx expo start
+```
 
-Join our community of developers creating universal apps.
+Scan the QR code with the **Expo Go** app on your phone.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📄 License
+
+MIT © [betulgundogdu](https://github.com/betulgundogdu)
