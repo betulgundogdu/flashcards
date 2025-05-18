@@ -7,7 +7,7 @@ import { createNewList } from '../stores/slices/listsSlice';
 import { useDispatch } from 'react-redux';
 import { AppDispatch } from '../stores';
 
-const ListDetailScreen: React.FC = () => {
+const CreateListScreen: React.FC = () => {
   const [name, setName] = useState<string>();
   const [desc, setDesc] = useState<string>();
   const router = useRouter();
@@ -115,4 +115,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ListDetailScreen;
+export default CreateListScreen;

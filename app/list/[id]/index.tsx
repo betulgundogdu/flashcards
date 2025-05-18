@@ -1,4 +1,4 @@
-// src/app/list/[id]/index.tsx (ListDetailScreen)
+// src/app/list/[id]/index.tsx
 import React, { useEffect, useState } from 'react';
 import { View, StyleSheet, Animated, Text as RNText } from 'react-native';
 import { Text, Button } from 'react-native-paper';
